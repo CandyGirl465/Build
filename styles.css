@@ -1,0 +1,105 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+h2, h3 {
+  color: #d5006b; /* Hot Pink Color */
+}
+
+button {
+  background-color: #d5006b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #c40058;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-container, .login-container, .product-management-container, .user-management-container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+nav {
+  background-color: #d5006b;
+  padding: 10px;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #c40058;
+  border-radius: 5px;
+}
+
+.product-form input {
+  width: 100%;
+}
+
+.product-form button {
+  margin-top: 10px;
+}
+
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.slick-slide img {
+  width: 100%; /* Make sure the image takes up the full width */
+  height: auto;
+  object-fit: cover; /* Optional: ensures the images maintain their aspect ratio */
+}
